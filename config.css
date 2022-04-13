@@ -1,0 +1,41 @@
+h1.title {
+  
+  text-align: center;
+  font-family: arial,sans-serif;
+  font-size: 4em;
+}
+h1.receitas {
+ 
+  font-family: arial,sans-serif;
+  font-size: 4em;
+}
+
+h2.sub{
+  position: absolute;
+  left:50%;
+  font-family: arial,sans-serif;
+  font-size: 2em;
+}
+h2.subreceitas{
+  
+  font-family: arial,sans-serif;
+  font-size: 2em;
+}
+p.description{
+  position: absolute;
+  left: 50%;
+  font-size: 1.5em;
+  width: 40%;
+  padding-top: 3%;
+  font-family: arial,sans-serif;
+}
+img{
+  height: 500px;
+  width: 500px;
+}
+a{
+  color: #ea1515ee;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  font-size: 1em;
+}
