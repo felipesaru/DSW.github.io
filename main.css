@@ -1,58 +1,239 @@
-body{
- 
-  position:relative;
-  background-color:#0af8a9;
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto', sans-serif;
 }
-* {
-  margin: 0px;
-  padding: 0px;
+.widht{
+  min-width: 1343px;
 }
-header{
-  border-top: none;
-  height: 120px;
- width: 100%;
-  background-color:#0060c0;
- 
+.header{
+  background-color: #252323;
+  height: 60px;
 }
-h1, h2{
-  text-align:center;
-  font-family: arial,sans-serif;
-  color: #000000;
+.logo{
+  height: 100%;
+  margin:0 auto;
+  width: 980px;
+  position: relative;
 }
-.artigo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  width: 70%;
-  margin-left:15%;
-  background-color: #ced3d8;
+.logo img{
+  padding: 15px; 
+  float: left;
 }
-nav{
-  left: 55%;
+.social{
+  float: right;
 }
-a{
-  color:#000000;
+.social ul li{
+  display: inline-block;
+}
+.menu-principal{
+  background-color: #ffffff;
+  height: 81px;
+  border-bottom: 4px solid #efefef;
+}
+.menu{
+  height: 100%;
+  margin:0 auto;
+  width: 980px;
+  position: relative;
+}
+.menu ul{
+  float: left;
+}
+.menu ul li {
+  padding-top: 30px;
+  display: inline-block;
+  height: 50px;
+}
+.menu ul li a{
   text-decoration: none;
+  color: #8B8B8B;
+  margin-left: 15px;
+  font-size: 14px;
+}
+.menu ul li:hover {
+  border-bottom: 2px solid #00bac6;
+}
+.menu ul li a:hover {
+  color: #00bac6; 
+}
+.search{
+float: right;
+padding: 10px;
+padding-top: 20px;
+}
+.search input{
+  background-image: url('img/lupa.png');
+  background-repeat: no-repeat;
+  height: 36px;
+  width: 197px;
   
- }
- div.container{
-   border-top: none;
-   text-align:center;
-   color:#000000;
-   background-color: #0060c0;
-   width: 70%;
-   margin-left:15%;
- }
- footer{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position:relative;
-  bottom: 0;
-  background-color: blue;
-  color: #FFF;
+  border: solid 2px #999999;
+    border-radius: 6px;
+  background-position: 95%;
+}
+.banner img{
   width: 100%;
-  height: 50px;    
+  min-width: 1343px;
+}
+.main{
+  height: 100%;
+  margin:0 auto;
+  width: 980px;
+  position: relative;
+}
+.text{
+  padding-top: 55px;
+  text-align: center;
+  color: #8B8B8B;
+}
+.text p{
+  font-size: 16px;
+}
+strong{
+  color:#000000;
+}
+.text2{
+  padding-top: 50px;
+}
+.text2 ul{
+  display:flex;
+}
+.text2 ul li{
   
- }
+  list-style: none;
+  
+}
+.mac{
+  color: #8B8B8B;
+  
+}
+.mac img{
+  padding-left:100px;
+}
+.mac h1{
+  text-align: center;
+  font-size: 30px;
+}
+.mac p{
+  text-align: center;
+}
+.pencil{
+  color: #8B8B8B;
+}
+.pencil img{
+  padding-left:100px;
+}
+.pencil h1{
+  text-align: center;
+  font-size: 30px;
+}
+.pencil p{
+  text-align: center;
+}
+.photo{
+  color: #8B8B8B;
+}
+.photo img{
+  padding-left:100px;
+}
+.photo h1{
+  text-align: center;
+  font-size: 30px;
+}
+.photo p{
+  text-align: center;
+}
+.pencilman{
+  padding-top: 36px;
+
+}
+.main2{
+ 
+  height: 100%;
+  margin:0 auto;
+  width: 980px;
+  position: relative;
+}
+.text3{
+  background-image: url(img/background.png);
+  width: 100%;     
+  background-repeat: no-repeat;  
+}
+.menuimg{
+  padding-top: 95px;
+  
+}
+.menuimg ul li{
+  display: inline-block;
+  margin-left: 10px;
+}
+.menuimg ul li a :hover{
+  border: 2px solid #000000;
+}
+.logos ul{
+  padding-top: 120px;
+  height: 150px;
+}
+.logos ul li{
+  display: inline-block;
+  margin-left: 75px;
+}
+.backgroundfooter{
+  background-color: #4e4b4b;
+  width: 100%;
+}
+.footer{
+  height: 100%;
+  margin:0 auto;
+  width: 980px;
+  position: relative;
+}
+.footer ul{
+  display: flex;
+  list-style: none;
+  color: #c0c0c0;
+  padding-top: 40px;
+}
+.footer ul li{
+  margin-left: 50px;
+ width: 24%;
+}
+.footer h1{
+  font-size: 20px;
+}
+.footer p{
+  font-size: 15px;
+}
+.footer b{
+  font-size: 20px;
+  color: #ffffff;
+}
+.footer time{
+  color: #717171;
+}
+.final{
+  background-color: #212121;
+  height: 90px;
+  width: 100%;
+}
+.footer2{
+  height: 100%;
+  margin:0 auto;
+  width: 980px;
+  position: relative;
+  
+}
+.finaltext{
+  float: left;
+  padding-top: 38px;
+}
+.social2 {
+  float: right;
+  padding-top: 38px;
+}
+.social2 ul li{
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
+}
